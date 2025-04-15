@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import reactLogo from "../images/react-icon-large.jpg";
 
 export default function Main() {
     return (
@@ -17,10 +18,17 @@ export default function Main() {
 }
 
 const MainSection = styled.main`
-  padding: 40px;
-  background-color: #282D35;
-  color: white;
-  min-height: 100vh;
+    padding: 60px 30px;
+    background-color: #24272e;
+    color: white;
+    min-height: 100vh;
+
+    background-image: url(${reactLogo});
+    background-repeat: no-repeat;
+    background-position: 200% 20% ;
+    background-size: 500px;
+    
+
 `;
 
 const Title = styled.h1`
